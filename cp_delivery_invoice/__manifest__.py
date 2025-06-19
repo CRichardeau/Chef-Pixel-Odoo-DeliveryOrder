@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Chef Pixel Delivery Invoice",
-    'summary': "This module helps to show the delivery into the invoice.",
-    'description': """Purpose of this module is to show the delivery based on the product wise 
-    in invoice lines.""",
-    'author': "CHEF PIXEL PVT LTD",
+    'name': "Display Delivery number on the Invoice",
+    'summary': "This module helps to show the delivery number into the invoice.",
+    'description': """Purpose of this module is to show the delivery number based on the product wise 
+    in invoice.""",
+    'author': "CHEF PIXEL INDIA PVT LTD",
     'website': "https://chef-pixel.fr",
     'category': 'Extra Tools',
     'version': '18.0.1.0.0',
@@ -14,8 +14,8 @@
         'views/account_move_view.xml',
     ],
     'license': 'LGPL-3',
-    'images': ['static/description/banner.png'],
     'installable': True,
     'auto_install': False,
-    'application': False,
+    'application': True,
+    'images': ['static/description/icon.png'],
 }
