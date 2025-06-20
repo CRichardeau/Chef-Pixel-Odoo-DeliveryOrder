@@ -1,0 +1,10 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cp_delivery_invoice
+#
+msgid ""
+msgstr ""
+#. module: cp_delivery_invoice
+#: model:ir.model.fields,field_description:cp_delivery_invoice.field_account_move_line__stock_picking_ids
+msgid "Delivery Order Number"
+msgstr "Bon de livraison"

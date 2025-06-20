@@ -20,7 +20,7 @@ class AccountMoveLine(models.Model):
     _inherit = 'account.move.line'
 
     stock_picking_ids = fields.Many2many(
-        'stock.picking', string='Stock Picking')
+        'stock.picking', string='Delivery Order Number')
 
     def unlink(self):
         for line in self:
