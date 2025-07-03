@@ -4,8 +4,9 @@
     'summary': "This module helps to show the delivery number into the invoice.",
     'description': """Purpose of this module is to show the delivery number based on the product wise 
     in invoice.""",
-    'author': "CHEF PIXEL INDIA PVT LTD",
+    'author': "CHEF PIXEL",
     'website': "https://chef-pixel.fr",
+    'support': "hello@chef-pixel.fr",
     'category': 'Extra Tools',
     'version': '17.0.1.0.0',
     'depends': ['sale', 'account', 'sale_stock', 'stock'],
