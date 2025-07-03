@@ -6,7 +6,7 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='order_line']/list/field[@name='price_unit']" position="before">
+            <xpath expr="//field[@name='order_line']/tree/field[@name='price_unit']" position="before">
                 <field name="stock_picking_ids" widget="many2many_tags" column_invisible="1"/>
             </xpath>
         </field>

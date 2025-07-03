@@ -8,7 +8,7 @@
     'website': "https://chef-pixel.fr",
     'support': "hello@chef-pixel.fr",
     'category': 'Extra Tools',
-    'version': '18.0.1.0.0',
+    'version': '17.0.1.0.0',
     'depends': ['sale', 'account', 'sale_stock', 'stock'],
     'data': [
         'views/sale_order_view.xml',
